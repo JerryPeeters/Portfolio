@@ -2,8 +2,12 @@ html(lang='nl')
   head
     title Jerry Peeters | Portfolio
     link(href='/bootstrap/css/bootstrap.min.css' rel='stylesheet')
-  
+
   body
-    
-    
+    .container
+      .row.align-items-center.justify-content-center(style='height:100%')
+        .col-auto
+          form(action='/publicatietool/' method='GET')
+            button.btn.btn-success.btn-lg(type="submit") Publicatietool Zaanstad  
+  
   footer
